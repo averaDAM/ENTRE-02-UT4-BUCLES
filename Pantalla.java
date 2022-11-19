@@ -3,6 +3,8 @@ import java.util.Scanner;
  *  Clase con métodos estáticos para trabajar 
  *  la pantalla (terminal de texto)
  *  
+ *  @author - Adrian Vera
+ *  
  */
 public class Pantalla
 {
@@ -15,7 +17,6 @@ public class Pantalla
     {
         System.out.println("\n\n\tIntro para continuar");
         teclado.nextLine();
-
     }
 
     /**
@@ -24,6 +25,5 @@ public class Pantalla
     public static void borrarPantalla()
     {
         System.out.print('\u000C');
-
     }
 }
